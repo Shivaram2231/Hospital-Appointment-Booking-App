@@ -1,40 +1,92 @@
-**Welcome to your Base44 project** 
+🏥 Hospital Booking App
 
-**About**
+A modern and responsive Hospital Booking Application built with Vite and modern web technologies.
+This application allows users to book hospital appointments, browse available doctors, and manage bookings through a clean and user-friendly interface.
 
-View and Edit  your app on [Base44.com](http://Base44.com) 
+📌 About the Project
 
-This project contains everything you need to run your app locally.
+The Hospital Booking App is designed to simplify the appointment booking process for patients and hospital staff.
 
-**Edit the code in your local development environment**
+Users can:
 
-Any change pushed to the repo will also be reflected in the Base44 Builder.
+View available doctors and departments
+Book appointments online
+Select date and time slots
+Manage booking details
+Access hospital-related services easily
 
-**Prerequisites:** 
+This project is built for fast performance, smooth UI interactions, and easy scalability.
 
-1. Clone the repository using the project's Git URL 
-2. Navigate to the project directory
-3. Install dependencies: `npm install`
-4. Create an `.env.local` file and set the right environment variables
+✨ Features
+🩺 Doctor listing and department details
+📅 Appointment booking system
+⏰ Time slot selection
+📱 Responsive design for mobile and desktop
+⚡ Fast loading using Vite
+🔒 Environment-based configuration
+🎨 Modern UI design
+🛠️ Tech Stack
+Vite
+JavaScript / TypeScript
+HTML
+CSS / Tailwind CSS
+Node.js
+npm
+📂 Installation
+1. Clone the Repository
+git clone <your-github-repo-url>
+2. Navigate to Project Folder
+cd Hospital-Booking-App
+3. Install Dependencies
+npm install
+⚙️ Environment Variables
 
-```
-VITE_BASE44_APP_ID=your_app_id
-VITE_BASE44_APP_BASE_URL=your_backend_url
+Create a file named .env.local in the root folder and add the following variables:
 
-e.g.
-VITE_BASE44_APP_ID=cbef744a8545c389ef439ea6
-VITE_BASE44_APP_BASE_URL=https://my-to-do-list-81bfaad7.base44.app
-```
+VITE_APP_ID=your_app_id
+VITE_APP_BASE_URL=your_backend_url
 
-Run the app: `npm run dev`
+Example:
 
-**Publish your changes**
+VITE_APP_ID=your_app_id
+VITE_APP_BASE_URL=https://your-backend-url.com
+▶️ Run the Project
 
-Open [Base44.com](http://Base44.com) and click on Publish.
+Start the development server:
 
-**Docs & Support**
+npm run dev
 
-Documentation: [https://docs.base44.com/Integrations/Using-GitHub](https://docs.base44.com/Integrations/Using-GitHub)
+After running the command, open the local URL shown in the terminal, usually:
 
-Support: [https://app.base44.com/support](https://app.base44.com/support)
-# Hospital-Appointment-Booking-App
+http://localhost:5173
+        or
+http://localhost:5173/
+
+📦 Build for Production
+
+To create a production-ready build:
+
+npm run build
+👀 Preview Production Build
+
+To preview the production build locally:
+
+npm run preview
+📁 Project Structure
+Hospital-Booking-App/
+│
+├── src/
+├── public/
+├── components/
+├── pages/
+├── .env.local
+├── package.json
+├── vite.config.js
+└── README.md
+🎯 Purpose
+
+This project aims to provide a digital solution for hospital appointment management, making it easier for patients to connect with doctors and schedule visits efficiently.
+
+👨‍💻 Author
+
+Developed by Shiva ram 
